@@ -205,7 +205,7 @@ section .contentBx .formBx .sci li img {
     cursor: pointer;
 } */
 
-@media(max-width: 768px) {
+@media(max-width: 1281px) {
     section .imgBx {
         position: absolute;
         top: 0;
