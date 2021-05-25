@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp</title>
-    <link rel="icon" href="./assets/images/chotalogo.png" type="image/x-icon">
+    <title>SignUp-Mobile</title>
+    <link rel="icon" href="./assets/images/WhatsApp_Image_2021-05-25_at_4.28.33_PM-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -28,15 +28,33 @@
                         <input type="text" name="">
                     </div>
                     <div class="inputBx">
-                        <span>Email ID</span>
-                        <input type="email" name="">
+                        <span>Mobile Number</span>
+                        <input type="number" name="">
+                        <div class=otp>
+                            <div class="btn" onclick="document.getElementById('show').style.display='block'" style="width: 45%; background-color: #5cb85cab; padding-top: 2.5px; padding-bottom: 2.5px;">
+                                get OTP
+                            </div>
+                        </div>
+                    </div> <br>
+
+
+
+                    <div class="inputBx" id="show" style="display:none">
+                        <span>Enter OTP</span>
+                        <input type="password" name="">
                     </div>
+
+
                     <div class="inputBx">
                         <span>UserName</span>
                         <input type="text" name="">
                     </div>
                     <div class="inputBx">
                         <span>Password</span>
+                        <input type="password" name="">
+                    </div>
+                    <div class="inputBx">
+                        <span>Confirm Password</span>
                         <input type="password" name="">
                     </div>
 
