@@ -15,6 +15,12 @@
     background: #555;
 }
 
+body {
+    background: linear-gradient(90deg, #6dd66d, white, white);
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -35,6 +41,10 @@ section .imgBx {
     height: 100%;
 }
 
+section .contentBx {
+    margin-top: 50px;
+}
+
 section .imgBx:before {
     content: '';
     position: absolute;
@@ -42,7 +52,6 @@ section .imgBx:before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, #6dd66d, white);
     mix-blend-mode: screen;
 }
 
@@ -118,6 +127,16 @@ section .contentBx .formBx .inputBx input[type="submit"] {
 section .contentBx .formBx .inputBx input[type="submit"]:hover {
     background: #5cb85c77;
     color: green;
+}
+
+section .contentBx .formBx .inputBx input[type="button"] {
+    background: #5cb85c;
+    color: #343a40;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    width: 2cm;
 }
 
 section .contentBx .formBx .remember {
