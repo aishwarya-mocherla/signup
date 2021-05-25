@@ -42,7 +42,7 @@ section .imgBx {
 }
 
 section .contentBx {
-    margin-top: 50px;
+    margin-top: 12px;
 }
 
 section .imgBx:before {
